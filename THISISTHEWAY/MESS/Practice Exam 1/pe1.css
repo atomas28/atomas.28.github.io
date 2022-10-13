@@ -1,0 +1,36 @@
+body{
+    display: grid;
+    gap: 30px;
+}
+#hello{
+    font-family: 'Times New Roman', Times, serif;
+    color: blueviolet;
+
+}
+
+#right{
+    background-color: green;
+    text-align: right;
+    width: 100%;
+}
+
+/* #eat{
+
+} */
+
+table{
+    width: 100%;
+
+    display: table;
+    background-color: blue;
+    vertical-align: auto;
+    text-align: left;
+    
+}
+td,th{
+    display: table-cell;
+    background-color: blue;
+    color: yellow;
+    border: green 3px solid;
+    
+}

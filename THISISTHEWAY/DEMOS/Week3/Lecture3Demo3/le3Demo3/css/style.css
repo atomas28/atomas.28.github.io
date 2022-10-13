@@ -1,0 +1,32 @@
+th,
+td {
+    border: 2px solid blue;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    font-size: 1.5em;
+}
+
+th:hover,
+td:hover {
+    background-color: blue;
+    color: red;
+}
+
+tfoot {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: red;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+tr:nth-child(even){
+    background-color: green;
+    color: blue;
+    font: 1.5em;
+}

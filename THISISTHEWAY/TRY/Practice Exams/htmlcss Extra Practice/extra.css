@@ -1,0 +1,6 @@
+th,td{
+    background-color: lightgreen;
+    color: darkolivegreen;
+    border: solid blue 2px;
+    font-family: 'Courier New', Courier, monospace;
+}

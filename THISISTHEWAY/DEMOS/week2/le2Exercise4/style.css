@@ -1,0 +1,13 @@
+#gdpr{
+    border: 10px yellow dotted;
+}
+body{
+    background-color: salmon;
+}
+.styledImages{
+    background-color: beige;
+    border: black dotted 20px;
+    width: 200px;
+}
+
+

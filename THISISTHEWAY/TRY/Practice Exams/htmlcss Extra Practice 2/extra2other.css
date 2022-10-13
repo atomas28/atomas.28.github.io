@@ -1,0 +1,10 @@
+body{
+    display: grid;
+    grid-template-rows: 2fr 2vw 2vw 2vw 1fr;
+}
+#sections{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: ;
+    
+}

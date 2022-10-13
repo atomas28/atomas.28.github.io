@@ -1,0 +1,69 @@
+h1 {
+    color: violet;
+}
+
+#right {
+    background-color: green;
+    text-align: right;
+}
+
+#superstore {
+
+    border: green 2px solid;
+    color: yellow;
+}
+
+table {
+    width: 100%;
+    text-align: left;
+    border-spacing: 2px;
+    vertical-align: auto;
+    background-color: blue;
+}
+
+td {
+    display: table-cell;
+    vertical-align: inherit;
+    background-color: blue;
+    border: green 2px solid;
+    color: yellow;
+    margin: 2px;
+}
+
+#food {
+    border: 2px black dotted;
+}
+
+@media screen and (min-width: 800px) {
+    body {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        grid-template-rows: auto auto auto auto;
+        
+
+    }
+    h1 {
+        color: black;
+        border: black 2px solid;
+        text-align: center;
+        grid-column-start: 3;
+        grid-column-end: 4;
+        
+        grid-row-end: 4;
+        
+    }
+    #eat{
+        grid-column-start: 2 ;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    
+    #table{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+}
+

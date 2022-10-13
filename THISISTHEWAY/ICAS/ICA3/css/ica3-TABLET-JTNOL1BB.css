@@ -1,0 +1,91 @@
+div,
+.header,
+.schedule,
+.alert,
+.bands,
+.albums,
+.feed,
+.entities,
+.footer {
+    border: black solid 3px;
+    border-radius: 30px;
+    background-color: #e9e9e9;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+div{
+    display: grid;
+    gap: 20px
+    ;
+}
+
+.header {
+    text-align: center;
+    background-color: tomato;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.s
+.schedule {
+    display: flex;    
+}
+
+table,
+td,
+th{
+    text-align: center;
+    border: dotted 1px;
+    border-collapse: collapse;
+    
+}
+table{
+    width: 90%;
+}
+
+.alert {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#BandTitle {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: none;
+}
+
+.entities {
+    background-color: #abbada;
+    font-family: sans-serif;
+}
+
+/* .feed{
+    classed SPANs
+} */
+
+/* .footer{
+    -footer specific fonts
+    -border raidus 10px
+    -backgroundcolor pinkish
+} */
+.footer {
+    background-color: pink;
+}
+tr:nth-child(odd){
+    background-color: rgb(194, 194, 173);
+}
+tr:nth-child(even){
+    background-color: #e9e9e9;    
+}
+@media screen and ( min-width : 800px ) {
+    body { background-color: #bbb; }
+    #site {
+    display: grid;
+    grid-template-columns: repeat(10,100px);
+    grid-template-rows: repeat(7,150px);
+    
+    }
+   }
+   
+   

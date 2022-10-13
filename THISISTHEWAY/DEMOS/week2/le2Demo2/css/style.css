@@ -1,0 +1,21 @@
+
+    p {
+        font-size:larger;
+        font-weight: bold;
+    }
+
+
+    img{
+        width: 300px;
+    }
+
+    .firstParagraph{
+        display: inline-block;
+        margin: auto;
+    }
+
+    .blockImage{
+        display: block;
+        margin: 30px;
+        
+    }
